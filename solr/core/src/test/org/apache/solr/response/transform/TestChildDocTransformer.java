@@ -30,7 +30,7 @@ public class TestChildDocTransformer extends SolrTestCaseJ4 {
 
   @BeforeClass
   public static void beforeClass() throws Exception {
-    initCore("solrconfig.xml","schema.xml");
+    initCore("solrconfig.xml","schema.xml"); // *not* the "nest" schema version
   }
 
   @After
